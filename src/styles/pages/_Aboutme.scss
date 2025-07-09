@@ -1,0 +1,95 @@
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  //padding: 1em 0;
+
+  .about-card{
+    background-color: var(--color-primary);
+    border: 5px solid var(--color-primary);
+    border-radius: 1.3em;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    justify-content: start;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+    color: white;
+    padding-right: .5em;
+    padding-left: .5em
+  }
+
+  .fotoUser {
+    position: relative;
+    top: -12%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 5px solid var(--color-primary);
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+  }
+ 
+  .descripcion { 
+      padding-top: -2em;
+      transform: translateY(-12%);
+
+      h2{
+        margin-bottom: .5em;
+        font-size: 2.5em;
+      }
+      h3 {
+        font-size: 1.3em;
+      }      
+    }
+}
+
+@media screen and (min-width: 1068px) {
+  .aboutme {
+    align-items:center;
+    margin-top: 17%;
+
+    .card {
+      border: 5px solid var(--color-primary);
+      border-radius: 1rem;
+      padding: 2rem;
+      padding-top: 6rem;
+      max-width: 70%;
+      width: 100%;
+      position:relative;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+    }
+
+    .fotoUser {
+      position: absolute;
+      top: -24%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 16.5rem;
+      height: 16.5rem;
+      border-radius: 50%;
+      border: 5px solid var(--color-primary);
+      object-fit: cover;
+      background-color: white;
+    }
+
+    .descripcion {
+      margin: 15% 5rem 0;
+
+      h2{
+        margin-bottom: 1rem;
+        font-size: 4rem;
+      }
+      h3{
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+      }
+      p {        
+        font-size: 1.7rem
+      }
+    }
+}
+}
