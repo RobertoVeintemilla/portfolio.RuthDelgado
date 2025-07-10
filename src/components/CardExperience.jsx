@@ -1,8 +1,8 @@
-export default function Experience ({jobtitle, workstation, website, duration, location, img, area,}){
+export default function Experience ({jobtitle, workstation, website, duration, location, img, area}){
   return (
     <div className="card-experience">
       <div className="card-image">
-        <img src={`../public/img/${img}`} />
+        <img src={`/img/${img}`} />
       </div>
       <div className="card-text">
         <h3>{jobtitle}</h3>

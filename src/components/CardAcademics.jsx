@@ -2,7 +2,7 @@ export default function Academics ({collageGrade, nameStatute, img, titleDegree}
   return (
     <div className="card-academics">
       <div className="card-image">
-        <img src={`../public/img/${img}`} />
+        <img src={`/img/${img}`} />
       </div>
       <div className="card-text">
         <strong>{nameStatute}</strong>
