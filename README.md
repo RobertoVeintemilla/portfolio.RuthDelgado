@@ -39,22 +39,22 @@ Realizar un portfolio donde muestra el curriculum de una Licenciada en enfermeri
 #### Desde la terminar
 
 - Clonar el proyecto:
-````
+````bash
 git clone https://github.com/RobertoVeintemilla/portfolio.RuthDelgado
 ````
 
 - Ingresar a la carpeta del proyecto:
-````
+````bash
 cd portfolio.RuthDelgado
 ````
 - Para instalar las dependencias correr: 
-````
+````bash
 npm install
 ````
 
 ### Levantar el servidor (puerto: 5137)
 
-````
+````bash
 npm run dev
 ````
 
