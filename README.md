@@ -5,7 +5,7 @@
 1. **[Objetivo](#objetivo)**
 1. **[Tecnologías usadas](#tecnologías-usadas)**
 1. **[Demo](#demo)**
-1. **[Instalación y uso del proyecto](#instalacion-y-uso-del-proyecto)**
+1. **[Instalación y uso del proyecto](#instalación-y-uso-del-proyecto)**
 
 ## Objetivo
 Realizar un portfolio donde muestra el curriculum de una Licenciada en enfermeria
