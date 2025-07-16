@@ -49,7 +49,7 @@
 @media screen and (min-width: 1068px) {
   .aboutme {
     align-items:center;
-    margin-top: 17%;
+    margin-top: 20%;
 
     .card {
       border: 5px solid var(--color-primary);
@@ -65,7 +65,7 @@
 
     .fotoUser {
       position: absolute;
-      top: -24%;
+      top: -22%;
       left: 50%;
       transform: translateX(-50%);
       width: 16.5rem;
@@ -77,7 +77,7 @@
     }
 
     .descripcion {
-      margin: 15% 5rem 0;
+      margin: 19% 5rem 0;
 
       h2{
         margin-bottom: 1rem;
