@@ -5,7 +5,7 @@
 1. **[Objetivo](#objetivo)**
 1. **[Tecnologías usadas](#tecnologías-usadas)**
 1. **[Demo](#demo)**
-1. **[Instralación y uso del proyecto](#instalacion-del-proyecto)**
+1. **[Instalación y uso del proyecto](#instalación-y-uso-del-proyecto)**
 
 ## Objetivo
 Realizar un portfolio donde muestra el curriculum de una Licenciada en enfermeria
@@ -34,27 +34,27 @@ Realizar un portfolio donde muestra el curriculum de una Licenciada en enfermeri
 ####
 
 ***
-## Instralación del proyecto:
+## Instalación y uso del proyecto:
 
 #### Desde la terminar
 
 - Clonar el proyecto:
-````
+````bash
 git clone https://github.com/RobertoVeintemilla/portfolio.RuthDelgado
 ````
 
 - Ingresar a la carpeta del proyecto:
-````
+````bash
 cd portfolio.RuthDelgado
 ````
 - Para instalar las dependencias correr: 
-````
+````bash
 npm install
 ````
 
 ### Levantar el servidor (puerto: 5137)
 
-````
+````bash
 npm run dev
 ````
 
